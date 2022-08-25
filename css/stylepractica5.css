@@ -1,0 +1,46 @@
+.menu{
+    display:flex;
+    justify-content: right;
+    list-style:none;
+}
+h3{
+    color:rgb(190, 136, 66);
+    display:flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+
+}
+.cont{
+    display: flex;
+    justify-content:center;
+
+}
+.logo{
+    display: flex;
+    margin:20px;
+    padding:1px;
+}
+a{
+    text-decoration:none;
+    color:green;
+}
+li{
+    padding:10px;
+    
+}
+h1{
+    background-image: url("../img/ciudad.jpg");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo1{
+    color:white;
+
+}
+.prog{
+    width:50%;
+}
