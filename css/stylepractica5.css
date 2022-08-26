@@ -42,36 +42,52 @@ h1{
     height:500px;
     background-repeat: no-repeat;
     background-size: cover;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 3em 3em 3em 3em;
+}
+span{
+    width:100%;
+    border: 2px solid red;
 }
 .titulo1{
     color:white;
     font-family: tahoma;
     font-size:2em;
     font-weight: lighter;
+    grid-column:2/4;
 }
 .titulo2{
     color:white;
     font-family: tahoma;
     font-size: 2em;
     font-weight: lighter;
+    grid-column:2/3;
+    grid-row:2/3;
 }
 .titulo3{
     color:white;
     font-family: tahoma;
     font-size:2em;
     font-weight: bolder;
+    grid-column:3/4;
+    grid-row:2/3;
 }
 .titulo4{
     color:white;
     font-family:tahoma;
     font-size:2em;
     font-weight: bolder;
+    grid-column:3/4;
+    grid-row:3/3;
 }
 .titulo5{
     color:white;
     font-family:tahoma;
     font-size:2em;
     font-weight: lighter;
+    grid-column:4/5;
+    grid-row:4/4;
 }
 .prog{
     width:65%;
@@ -95,4 +111,5 @@ nav{
 .vector{
     color:white;
     font-size: 3em;
+    grid-column:1/2;
 }
