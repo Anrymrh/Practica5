@@ -7,10 +7,15 @@ h3{
     color:rgb(190, 136, 66);
     display:flex;
     justify-content: center;
+    font-family: arial;
+    margin:0.3em;
 }
 p{
     display: flex;
     justify-content: center;
+    font-family: arial;
+    margin:0.1em;
+    color:#646d6c;
 
 }
 .cont{
@@ -25,7 +30,8 @@ p{
 }
 a{
     text-decoration:none;
-    color:green;
+    color:#198754;
+    font-family: arial;
 }
 li{
     padding:10px;
@@ -39,8 +45,54 @@ h1{
 }
 .titulo1{
     color:white;
-
+    font-family: tahoma;
+    font-size:2em;
+    font-weight: lighter;
+}
+.titulo2{
+    color:white;
+    font-family: tahoma;
+    font-size: 2em;
+    font-weight: lighter;
+}
+.titulo3{
+    color:white;
+    font-family: tahoma;
+    font-size:2em;
+    font-weight: bolder;
+}
+.titulo4{
+    color:white;
+    font-family:tahoma;
+    font-size:2em;
+    font-weight: bolder;
+}
+.titulo5{
+    color:white;
+    font-family:tahoma;
+    font-size:2em;
+    font-weight: lighter;
 }
 .prog{
-    width:50%;
+    width:65%;
+    height:100%;
+    justify-content: flex-start;
+    padding:2em 6em 2em;
+    box-sizing:border-box;
+    display:flex;
+}
+.letras{
+   
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding:30px;
+}
+nav{
+    border-top:2px solid #646d6c;
+    
+}
+.vector{
+    color:white;
+    font-size: 3em;
 }
