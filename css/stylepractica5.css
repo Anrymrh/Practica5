@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .menu{
     display:flex;
     justify-content: right;
@@ -39,15 +45,21 @@ li{
 }
 h1{
     background-image: url("../img/ciudad.jpg");
-    height:500px;
+
     background-repeat: no-repeat;
     background-size: cover;
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:60px repeat(4,1fr);
     grid-template-rows: 3em 3em 3em 3em;
+    padding: 2em 20em 2em 2em;
+    border:2px solid red;
+
+}
+
+h1 img{
+    width: 100%;
 }
 span{
-    width:100%;
     border: 2px solid red;
 }
 .titulo1{
@@ -56,21 +68,24 @@ span{
     font-size:2em;
     font-weight: lighter;
     grid-column:2/4;
+    grid-row:1/2;
+    justify-self: end;
 }
 .titulo2{
     color:white;
     font-family: tahoma;
     font-size: 2em;
     font-weight: lighter;
-    grid-column:2/3;
+    grid-column:3/4;
     grid-row:2/3;
+    justify-self: end;
 }
 .titulo3{
     color:white;
     font-family: tahoma;
     font-size:2em;
     font-weight: bolder;
-    grid-column:3/4;
+    grid-column:4/5;
     grid-row:2/3;
 }
 .titulo4{
@@ -78,8 +93,8 @@ span{
     font-family:tahoma;
     font-size:2em;
     font-weight: bolder;
-    grid-column:3/4;
-    grid-row:3/3;
+    grid-column:4/5;
+    grid-row:3/4;
 }
 .titulo5{
     color:white;
@@ -87,7 +102,7 @@ span{
     font-size:2em;
     font-weight: lighter;
     grid-column:4/5;
-    grid-row:4/4;
+    grid-row:4/5;
 }
 .prog{
     width:65%;
@@ -110,6 +125,17 @@ nav{
 }
 .vector{
     color:white;
-    font-size: 3em;
+    font-size:3.5em;
+    /*position: relative;
+    top: 180px;
+    left:450px;*/
+    font-weight: bolder;
     grid-column:1/2;
+    grid-row:1/2;
+    
+}
+main{
+    border:2px solid black;
+    margin: 0;
+    padding: 0;
 }
